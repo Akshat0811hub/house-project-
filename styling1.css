@@ -1,0 +1,100 @@
+.container{
+    /*background-color: red;*/
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 133px 1fr 1fr ;
+    row-gap: 12px;
+    column-gap: 12px;
+    text-decoration: none;
+}
+.item{
+    background-color: black;
+    /*height: 100px;
+    width: 100px;*/
+    z-index: 0.1px;
+    padding: 10px;
+    text-decoration: none;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    opacity: 0.5;
+}
+.item1 h1{
+    color: white;  
+    font-size: 45px;
+    text-align: center;
+}
+.item1 h1:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.item2 h1{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+.item3 h1{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}.item4 h1{
+    color: blue;
+    cursor: pointer;
+}.item5 h1{
+    color: blue;
+    cursor: pointer;
+}.item6 h1{
+    color: blue;
+    cursor: pointer;
+}.item7 h1{
+    color: blue;
+    cursor: pointer;
+}.item8 h1{
+    color: blue;
+    cursor: pointer;
+}.item9 h1{
+    color: blue;
+    cursor: pointer;
+}.item10 h1{
+    color: blue;
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+}
+.item2 h1:hover{
+    color: white;
+}
+
+.item3 h1:hover{
+    color: white;
+}
+.item4 h1:hover{
+    color: white;
+}
+.item5 h1:hover{
+    color: white;
+}
+.item6 h1:hover{
+    color: white;
+}
+.item7 h1:hover{
+    color: white;
+}
+.item8 h1:hover{
+    color: white;
+}
+.item9 h1:hover{
+    color: white;
+}
+.item10 h1:hover{
+    color: white;
+}
+.container a{
+    text-decoration: none;
+}
+.container h1{
+    text-decoration: none;
+}
